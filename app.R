@@ -11,10 +11,6 @@ library(shinyWidgets)
 library(rsconnect)
 library(shinyjs)
 
-
-#Set working directory
-#setwd("C:/Users/nrxan/Desktop/Purdue Krannert - MSBA/Semesters/Summer 2021/Module 1/MGMT 590 - R for Analytics/Final Project/heart attack")
-
 #load data
 data <- read.csv('heart.csv', header = TRUE)
 #testMbr <- read.csv('testMbr.csv', header = TRUE)
